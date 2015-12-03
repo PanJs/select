@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<meta name="format-detection" content="telephone=no" />
+		<title></title>
+		<link rel="stylesheet" href="css/lunpan.css" />
+	</head>
+	<body>
+		<div id='siji'>
+			
+		</div>
+		<div id="setData">
+			<span class="attr">	</span>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript" src="js/lunpan.js" ></script>
+		<script>
+			$('#siji').lunPan(
+				{
+					'initVal':'b1',
+					'totalVal':['b1','b2','b3','b4','b5','b6','b7','b8','b9','b10'],
+					'elem':$('#setData span')
+				}
+			)
+		</script>
+	</body>
+</html>
